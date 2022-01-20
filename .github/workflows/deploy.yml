@@ -19,4 +19,5 @@ jobs:
           script: |
             cd edenison.github.io
             git pull
+            unalias cp
             cp -r ../edenison.github.io/ ../../pub/
