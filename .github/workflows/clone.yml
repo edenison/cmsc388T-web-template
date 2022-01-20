@@ -17,3 +17,4 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             git clone git@github.com:edenison/edenison.github.io.git
+            cp -r edenison.github.io/ ../pub/
