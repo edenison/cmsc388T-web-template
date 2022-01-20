@@ -18,3 +18,4 @@ jobs:
           script: |
             unalias rm
             rm -rf edenison.github.io
+            rm -rf ../pub/edenison.github.io/
