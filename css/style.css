@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 * {
     box-sizing: border-box;
@@ -71,6 +72,7 @@ html, body {
 .my-name {
     text-align: center;
     margin: 15px;
+    font-family: Shrikhand, cursive;
     font-size: 3em;
     font-weight: normal;
     color: white;
@@ -88,8 +90,9 @@ html, body {
 }
 
 .section-header {
-    font-weight: 700;
-    color: #333;
+    /* font-weight: 700; */
+    font-family: Shrikhand, cursive;
+    color: #441d20;
     text-align: center;
     font-size: 2em;
 }
@@ -103,7 +106,7 @@ html, body {
     float: left;
     height: 175px;
     width: 190px;
-    margin: 30px;
+    margin: 0px 30px;
     border-radius: 50%;
 }
 
